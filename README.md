@@ -36,6 +36,6 @@ network connectivity, and your dependency can be downloaded from the internet.
 
 Also, because I can.
 
-*Note*
+### *Note*
 
 This is a POC that only runs on *nix. Use at your own discretion.
