@@ -26,6 +26,8 @@ You vendor path should now be set up and you can use regular `gb` workflow.
 $ gb build
 ```
 
+Now be sure to check in the `Vendorfile` and `.gitignore` your `vendor/` folder.
+
 ### Why?
 
 I really like how `gb` allows you to have per project GOPATHS without much
