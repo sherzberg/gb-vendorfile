@@ -4,9 +4,17 @@
 that knows how to read a dependency file similar to python requirements.txt
 files.
 
+### Install
+
+```bash
+$ go get github.com/sherzberg/go-vendorfile/...
+```
+
+It's ironic that we use go get... but just _go_ with it.
+
 ### Usage
 
-Create a `Vendorfile` like below:
+Create a `Vendorfile` in your `gb` project like below:
 
 ```
 # fs
@@ -16,7 +24,7 @@ https://github.com/kr/fs/archive/2788f0dbd16903de03cb8186e5c7d97b69ad387b.zip
 Now we can set up `gb`'s vendor path from this file.
 
 ```bash
-$ gb plugin vendorfile get
+$ gb plugin vendorfile
 ... vendoring github.com/kr.fs
 ```
 
@@ -41,3 +49,5 @@ Also, because I can.
 ### *Note*
 
 This is a POC that only runs on *nix. Use at your own discretion.
+
+And the api is subject to change.
